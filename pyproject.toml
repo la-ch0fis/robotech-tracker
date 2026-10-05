@@ -1,0 +1,10 @@
+[project]
+name = "robotech-tracker"
+version = "0.1.0"
+description = "Simple program to catch uptrends, downtrends and reversals for stocks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.6",
+    "yfinance>=1.7.0",
+]
