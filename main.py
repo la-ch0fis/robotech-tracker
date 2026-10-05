@@ -97,7 +97,7 @@ if __name__ == "__main__":
                 s = s.strip()
                 if not s:
                     continue
-                analyze_ticker(s.strip().upper())
+                analyze_ticker(s)
         else:
             print("What are you tring to pull here, MOFO? Give me something, come on!")
     # for symbol in ["TSLA", "URNJ", "SNOW"]:
